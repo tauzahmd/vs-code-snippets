@@ -12,7 +12,7 @@ A collection of all snippets/boiler-plate usable in VS code (Currently working o
 | Prefix              |           Description                      |
 | ------------------- | -------------------------------------------|
 | propertygetter      | Python [property](#propertygetter) getter |
-| propertysetter      | Python [property](#propertygetter) getter and setter |
+| propertysetter      | Python [property](#propertysetter) getter and setter |
 | classinit           | Python [class](#classinit) with an `__init__()`  |
 | classreprstr        | Python [class](#classreprstr) with `__str__()` and ` __repr__()` |
 | classsequence       | Python [class](#classsequence) with `__init__()`, `__getitem__()`, `__setitem__()`, `__delitem__()`, `__len__()`, and `insert()` |
@@ -34,7 +34,7 @@ def name(self):
     return self._name
 ```
 
-##### `propertygetter`
+##### `propertysetter`
 ```python
 @property
 def name(self):
